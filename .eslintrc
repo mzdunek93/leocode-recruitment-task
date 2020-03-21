@@ -1,0 +1,52 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-native", "react-hooks", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react-native/all",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "comma-dangle": ["error", "never"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "no-fallthrough": ["error", { "commentPattern": "break[\\s\\w]*omitted" }],
+    "react/jsx-uses-vars": 2,
+    "react/jsx-indent-props": [2, 2],
+    "react/display-name": [0, { "ignoreTranspilerName": false }],
+    "no-multi-spaces": ["error", { "ignoreEOLComments": false }],
+    "no-console": ["warn", { "allow": ["error"] }],
+    "semi": ["error", "never"],
+    "react/no-unescaped-entities": 0,
+    "prettier/prettier": ["error"],
+    "object-shorthand": ["error", "always"],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "eol-last": ["error", "always"],
+    "no-multiple-empty-lines": [
+      "error",
+      { "max": 2, "maxBOF": 0, "maxEOF": 1 }
+    ],
+    "react/jsx-curly-brace-presence": ["error", {
+      "props": "never"
+    }],
+    "react-native/no-raw-text": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

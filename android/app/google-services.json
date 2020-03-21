@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68804935066",
+    "firebase_url": "https://leocode-ae813.firebaseio.com",
+    "project_id": "leocode-ae813",
+    "storage_bucket": "leocode-ae813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68804935066:android:354c731115d8c6d6f28e23",
+        "android_client_info": {
+          "package_name": "com.michalzdunek.leocode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68804935066-2q2ianpjbg8ioqs9i6ej8cmvfglbip6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.michalzdunek.leocode",
+            "certificate_hash": "93cd5751596d95c00e157c6d51b3bccf751ebf2c"
+          }
+        },
+        {
+          "client_id": "68804935066-sfkjcu0kvdrn8umeovhukpk90mr7mppm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Vavc3S89OlpLX5qHfmf1f87KxrTWpt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68804935066-sfkjcu0kvdrn8umeovhukpk90mr7mppm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
